@@ -12,7 +12,7 @@ class SpringJenkinsApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 	@Test
-	void contextLoads() {
+	public contextLoads() {
 		logger.info("***Inside Test class******");
 		logger.info("***Code added for second build******");
 		assertEquals(true,true);
