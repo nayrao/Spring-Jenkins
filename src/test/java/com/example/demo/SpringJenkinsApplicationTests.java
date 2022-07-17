@@ -14,8 +14,6 @@ class SpringJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("***Inside Test class******");
-		logger.info("***Code added for second build******");
-		logger.info("***Email Confirmatiom Purpose******");
 		assertEquals(true,true);
 	}
 
